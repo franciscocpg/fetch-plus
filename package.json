@@ -31,6 +31,7 @@
     "build-fetch-plus-useragent": "cd packages/fetch-plus-useragent && npm run build",
     "build-fetch-plus-xml": "cd packages/fetch-plus-xml && npm run build",
     "build-fetch-plus-stream": "cd packages/fetch-plus-stream && npm run build",
-    "watch": "webpack --verbose --colors --display-error-details --config example/webpack.client-watch.js && webpack-dev-server --config example/webpack.client-watch.js"
+    "watch": "webpack --verbose --colors --display-error-details --config example/webpack.client-watch.js && webpack-dev-server --config example/webpack.client-watch.js",
+    "publish-fetch-plus": "cd packages/fetch-plus && npm publish"
   }
 }
